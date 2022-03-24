@@ -1,1 +1,0 @@
-UF2-Lenguaje SQL: DML y DDL
