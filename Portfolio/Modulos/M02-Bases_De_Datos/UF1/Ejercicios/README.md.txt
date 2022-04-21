@@ -1,1 +1,0 @@
-Ejercicios modelo relacional
