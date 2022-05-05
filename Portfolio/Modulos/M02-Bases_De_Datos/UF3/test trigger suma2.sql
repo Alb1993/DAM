@@ -1,0 +1,9 @@
+USE exemple_disparadors;
+
+DELIMITER //
+CREATE TRIGGER actual AFTER DELETE ON prova FOR EACH ROW
+BEGIN
+    UPDATE suma SET suma=(SELECT COUNT(codi) FROM prova)
+END
+DELIMITER ;
+
