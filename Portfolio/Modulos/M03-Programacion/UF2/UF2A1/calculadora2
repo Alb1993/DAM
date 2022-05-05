@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+public class calculadora2 {
+    public static int resultado = 0;
+    public static void main(String[] args) throws Exception {
+        introNumeros();
+    }
+
+    public static void introNumeros(){
+        
+        Scanner in = new Scanner(System.in);     
+        int a = 0, b = 0;
+        String caracter = "", opcion = "";
+        boolean salir = false;
+
+        do {
+            if (!in.hasNextInt()) {
+                caracter = in.next();
+                if (caracter.equals("S")) {
+                    salir = true;
+                }
+            } else {
+                a = in.nextInt();
+                b = in.nextInt();
+
+                opcion = in.next();
+
+                switch(opcion) {
+                    case "+":
+                        sumar(a, b, opcion);
+                        break;
+                    case "-":
+                        restar(a, b, opcion);
+                        break;
+                    case "x":
+                        multiplicar(a, b, opcion);
+                        break;
+                    case "/":
+                        dividir(a, b, opcion);
+                        break;
+                    default:
+                        System.out.println("[ERROR] Opción no válida. Elegir entre: '+', '-', 'x' o '/'.");
+                }
+            }
+        } while(!salir);
+
+        in.close();
+        System.exit(0);        
+    }   
+    
+    public static void sumar(int a, int b, String opcion){
+        resultado = a + b;
+        muestraResultado(a, b, resultado, opcion);
+    }
+    
+    public static void restar(int a, int b, String opcion){
+        resultado = a - b;
+        muestraResultado(a, b, resultado, opcion);
+    }
+
+    public static void multiplicar(int a, int b, String opcion){
+        resultado = a * b;
+        muestraResultado(a, b, resultado, opcion);
+    }    
+        
+    public static void dividir(int a, int b, String opcion){
+        if (b == 0) {
+            System.out.println("[ERROR] No se puede dividir por 0.");
+        } else {
+            resultado = a / b;
+            muestraResultado(a, b, resultado, opcion);
+        }
+    }    
+
+    public static void muestraResultado(int a, int b, int resultado, String opcion){
+        System.out.println(a + " " + opcion + " " + b + " = " + resultado);
+    }
+}
