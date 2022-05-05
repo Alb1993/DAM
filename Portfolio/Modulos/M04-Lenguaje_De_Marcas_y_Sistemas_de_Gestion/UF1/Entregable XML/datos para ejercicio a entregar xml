@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Parc>
+  <nom>CoperAventura S.A.</nom>
+  <adreça>Passeig de la sort, 1.</adreça>
+  <Ciutat>Can Puces</Ciutat>
+  <País>Espanya</País>
+  <llocweb>http://www.coperaventura.com</llocweb>
+  <atraccions>
+  
+
+    <nomatraccio></nomatraccio>
+    <zonatematica></zonatematica>
+    <passpreferent></passpreferent>
+    <discapacitats></discapacitats>
+    <zonatematica></zonatematica>
+    <fotografia></fotografia>
+    <video></video>
+    <alçadamin></alçadamin>
+    <alçadamax></alçadamax>
+    <nivellintensitat></nivellintensitat>
+  </atraccions>
+  
+  <espectacles>
+      <nom>  </nom>
+      <zonatemaica>  </zonatemaica>
+      <tipusespectacle>  </tipusespectacle>
+      <accespasspreferent>   </accespasspreferent>
+      <accesdiscapacitat>  </accesdiscapacitat>
+      <horariespectacle>  </horariespectacle>  
+  </espectacles>  
+  
+  <restaurants>  
+    <nomrestaurant>  </nomrestaurant>
+    <zonatematica>   </zonatematica>
+    <menuespecial>  </menuespecial>
+    <servei>  </servei>
+  </restaurants>
+  <botigues>  
+      <nombotiga>  </nombotiga>
+      <zonatematica>  </zonatematica>
+      <tipusproducte>  </tipusproducte> 
+      <recollida>  </recollida>
+  </botigues>
+  
+</Parc>
