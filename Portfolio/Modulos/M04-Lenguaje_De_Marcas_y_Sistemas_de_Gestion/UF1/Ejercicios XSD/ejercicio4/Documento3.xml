@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:Documento2.xsd">
+  <persona>
+    <nom>Paula</nom>
+    <ciutat>Paris</ciutat>
+    <edat>23</edat>
+  </persona>
+  <persona>
+    <nom>Pepo</nom>
+    <ciutat>Roma</ciutat>
+    <edat>13</edat>
+  </persona>
+</persones>

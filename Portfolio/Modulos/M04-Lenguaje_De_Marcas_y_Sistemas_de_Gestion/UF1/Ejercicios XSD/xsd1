@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <xs:element name="horaris">
+    <xs:complexType>
+       <xs:sequence>
+         <xs:element ref="mes" maxOccurs="unbounded"/> 
+       </xs:sequence>    
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="mes">
+    <xs:complexType name="mesos">
+       <xs:sequence>
+         <xs:element ref="horaOpertura" maxOccurs="1" type="xs:time"/> 
+         <xs:element ref="horaTancament" maxOccurs="unbounded" type="xs:time"/> 
+       </xs:sequence>
+    <xs:attribute name="nom" use="required" type="mesos"/>
+    </xs:complexType>
+  </xs:element>
+  
+   <xs:element name="horaOpertura">
+    <xs:complexType>
+       <xs:sequence>
+         <xs:element ref="periode" maxOccurs="unbounded"/>  
+       </xs:sequence>
+    <xs:attribute name="hora" use="required" type="xs:time"/>
+    </xs:complexType>
+  </xs:element>
+  
+   <xs:element name="horaTancament">
+    <xs:complexType>
+       <xs:sequence>
+         <xs:element ref="periode" maxOccurs="unbounded"/>  
+       </xs:sequence>
+    <xs:attribute name="hora" use="required" type="xs:time"/>
+    </xs:complexType>
+  </xs:element>
+  
+     <xs:element name="periode">
+    <xs:complexType name="diesMes">
+       <xs:sequence>
+         <xs:element ref="diaSetmana" maxOccurs="7" type="diesSetmana"/>  
+       </xs:sequence>
+    <xs:attribute name="diaInici" name="diaFinal" use="required" type="diesMes"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="espectacles">
+    <xs:complexType>
+       <xs:sequence>
+         <xs:element ref="zona" maxOccurs="unbounded"/> 
+       </xs:sequence>
+    <xs:attribute name="nom" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="zona">
+    <xs:complexType name="zones">
+       <xs:sequence>
+         <xs:element ref="espectacle" maxOccurs="unbounded"/> 
+         <xs:element ref="restaurant" maxOccurs="unbounded"/> 
+       </xs:sequence>
+    <xs:attribute name="nom" use="required" type="zones"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="espectacle">
+    <xs:complexType>
+       <xs:sequence>
+         <xs:element ref="servei" maxOccurs="3" type="serveis" use="optional"/> 
+         <xs:element ref="horari" maxOccurs="unbounded"/> 
+         <xs:element ref="tipus" maxOccurs="1" type="tipusEspectacles" use="required"/> 
+       </xs:sequence>
+    <xs:attribute name="nom" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="horari">
+    <xs:complexType>
+       <xs:sequence>
+         <xs:element ref="passi" maxOccurs="unbounded"/> 
+       </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="passi">
+    <xs:complexType>
+       <xs:sequence>
+         <xs:element ref="horaInici" maxOccurs="1" use="required" type="xs:time"/> 
+         <xs:element ref="horaFinal" maxOccurs="1" use="optional" type="xs:time"/> 
+         <xs:element ref="diaSetmana" maxOccurs="7" type="diesSetmana" use="required"/> 
+       </xs:sequence>
+    <xs:attribute name="nom" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="restaurants">
+    <xs:complexType name="zones">
+       <xs:sequence>
+         <xs:element ref="zona" maxOccurs="unbounded" use="required"/> 
+       </xs:sequence>
+    <xs:attribute name="nom" use="required" type="zones"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="restaurant">
+    <xs:complexType>
+       <xs:sequence>
+         <xs:element ref="servei" maxOccurs="2" use="optional" type="serveis"/> 
+         <xs:element ref="menuEspecial" maxOccurs="2" use="optional" type="menus"/> 
+       </xs:sequence>
+    <xs:attribute name="nom" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:simpleType name="mesos">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Juliol"/>
+      <xs:enumeration value="Agost"/>
+      <xs:enumeration value="Septembre"/>
+      <xs:enumeration value="Octubre"/>
+      <xs:enumeration value="Novembre"/>
+      <xs:enumeration value="Desembre"/>
+      <xs:enumeration value="Gener"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="diesSetmana">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Dilluns">
+      <xs:enumeration value="Dimarts"/>
+      <xs:enumeration value="Dimecres"/>
+      <xs:enumeration value="Dijous"/>
+      <xs:enumeration value="Divendres"/>
+      <xs:enumeration value="Dissabte"/>
+      <xs:enumeration value="Diumenge"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="diesMes">
+    <xs:restriction base="xs:integer">
+      <xs:minExclusive value="1"/>
+      <xs:maxExclusive value="31">
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="zones">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ESO">
+      <xs:enumeration value="Batxillerat">
+      <xs:enumeration value="GM">
+      <xs:enumeration value="GS">
+      <xs:enumeration value="Profes">
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="serveis">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="PassPreferent"/>
+      <xs:enumeration value="Accés discapacitat"/>
+      <xs:enumeration value="Fotografia"/>
+      <xs:enumeration value="Vídeo"/>
+      <xs:enumeration value="Seient VIP"/>
+      <xs:enumeration value="Autoservei"/>
+      <xs:enumeration value="Taula"/>
+      <xs:enumeration value="Servei de recollida"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="tipusEspectacles">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Desfilada"/>
+      <xs:enumeration value="Aventura"/>
+      <xs:enumeration value="Musical"/>
+      <xs:enumeration value="Didàctic"/> 
+      <xs:enumeration value="Passatge del Terror"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="menus">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  
+  <xs:simpleType name="productes">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

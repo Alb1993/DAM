@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<marcadors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="Documento1.xsd">
+  <pagina>
+      <nom>Abrirllave</nom>
+      <descripcio>Tutorials d’informàtica.</descripcio>
+      <url>http://www.abrirllave.com/</url>
+  </pagina>
+  <pagina>
+      <nom>Wikipèdia</nom>
+      <descripcio>La enciclopèdia lliure.</descripcio>
+      <url>http://www.wikipedia.org/</url>
+  </pagina>
+  <pagina>
+      <nom>W3C</nom>
+      <descripcio>World Wide Web Consortium.</descripcio>
+      <url>http://www.w3.org/</url>
+  </pagina>
+</marcadors>

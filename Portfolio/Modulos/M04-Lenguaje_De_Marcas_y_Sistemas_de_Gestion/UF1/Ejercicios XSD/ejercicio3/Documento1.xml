@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fitxes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:Documento2.xsd">
+ <fitxa numero="1">
+  <nom>Paula Sastre</nom>
+  <edat>23</edat>
+ </fitxa>
+ <fitxa numero="2">
+  <nom>Pep Gómez</nom>
+  <edat>23</edat>
+ </fitxa>
+</fitxes>

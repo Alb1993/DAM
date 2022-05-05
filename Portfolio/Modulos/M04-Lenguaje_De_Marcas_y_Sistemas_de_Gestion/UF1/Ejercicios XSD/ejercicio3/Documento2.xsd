@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fitxes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="fitxa" type="xs:string" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom" type="xs:string" maxOccurs="unbounded"/>
+              <xs:element name="edat" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="numero" type="integer" use="optional" default="unbounded"/>
+          </xs:complexType>        
+        </xs:element>
+      </xs:sequence>
+      <xs:sequence>
+        <xs:element name="fitxa" type="xs:string" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom" type="xs:string" maxOccurs="unbounded"/>
+              <xs:element name="edat" type="xs:string" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="numero" type="integer" use="optional" default="unbounded"/>
+          </xs:complexType>        
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>  
+
+
+          
+
