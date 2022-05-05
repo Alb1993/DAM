@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fruiteria>
+  <fruita1>
+    <codiproducte>0001</codiproducte>
+    <nomproducte>Maduixa</nomproducte>
+    <productor xmlns:pro="http://www.example.com/xml/productor.xml">
+      <pro:cif>G25729666</pro:cif>
+      <pro:nom>Afrucat</pro:nom>
+      <pro:adreça>Av. Tortosa, Nº2, Lleida</pro:adreça>
+    </productor>
+    <tipus>
+     <aliment>Si</aliment>
+     <fragilitat>3</fragilitat>
+     <frigorífic>No</frigorífic>
+    </tipus>
+    <secció>Fruites</secció>
+    <stock>0</stock>
+  </fruita1>
+  <fruita2>
+    <codiproducte>0002</codiproducte>
+    <nomproducte>Pera</nomproducte>
+    <productor xmlns:pro="http://www.example.com/xml/productor.xml">
+      <pro:cif>A18025346</pro:cif>
+      <pro:nom>Agrocastell</pro:nom>
+      <pro:adreça>Rambla del Sotillo, 11, Gualchos, 18740, Granada</pro:adreça>
+    </productor>
+    <tipus>
+     <aliment>Si</aliment>
+     <fragilitat>2</fragilitat>
+     <frigorífic>No</frigorífic>
+    </tipus>
+    <secció>Fruites</secció>
+    <stock>30</stock>
+  </fruita2>
+  <fruita3>
+    <codiproducte>0003</codiproducte>
+    <nomproducte>Suc</nomproducte>
+    <productor xmlns:pro="http://www.example.com/xml/productor.xml">
+      <pro:cif>B64822695</pro:cif>
+      <pro:nom>Agromillora Catalana s.a.</pro:nom>
+      <pro:adreça>Calle Rebato, S/n 08739, Subirats, Barcelona</pro:adreça>
+    </productor>
+    <tipus>
+     <aliment>Si</aliment>
+     <fragilitat>1</fragilitat>
+     <frigorífic>Si</frigorífic>
+    </tipus>
+    <secció>Refrescos</secció>
+    <stock>20</stock>
+  </fruita3>
+
+
+</fruiteria>

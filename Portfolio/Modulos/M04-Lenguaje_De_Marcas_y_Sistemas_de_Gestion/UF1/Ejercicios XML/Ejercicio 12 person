@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<citizen
+xlmns:personxml="http://www.example.com/xml/person.xml">
+  <personxml:name>Rob</personxml:name>
+  <personxml:age>37</personxml:age>
+</citizen>

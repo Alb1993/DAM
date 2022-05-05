@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <llibre>  
+    <codillibre>0001</codillibre>
+    <titol>fundamentos de hardware</titol>
+    <editorial>sintesis</editorial>
+    <edicio>2019</edicio>
+    <isbn>9788491712947</isbn>
+    <nombrepagines>202</nombrepagines>
+    <autor>juan carlos moreno perez</autor>
+  </llibre>
+  <llibre>  
+    <codillibre>0002</codillibre>
+    <titol>Aprende a programar con java (2da edicion)</titol>
+    <editorial>Paraninfo</editorial>
+    <edicio>2016</edicio>
+    <isbn>9788428338578</isbn>
+    <nombrepagines>412</nombrepagines>
+    <autor>Alfonso Jiménez Martín</autor>
+  </llibre>
+  <llibre>  
+    <codillibre>0003</codillibre>
+    <titol>Haz click aquí para matarlos a todos: Un manual de supervivencia</titol>
+    <editorial>Temas de hoy</editorial>
+    <edicio>2019</edicio>
+    <isbn>9788499987538</isbn>
+    <nombrepagines>464</nombrepagines>
+    <autor>Bruce Schneier</autor>
+  </llibre>
+  <llibre>
+    <codillibre>0004</codillibre>
+    <titol>Estructura y diseño de computadores</titol>
+    <editorial>Reverte</editorial>
+    <edicio>2018</edicio>
+    <isbn>9788429126204</isbn>
+    <nombrepagines>913</nombrepagines>
+    <autor>David A. Patterson</autor>
+  </llibre>
+  <llibre> 
+    <codillibre>0005</codillibre>
+    <titol>Futureproof: 9 Rules for Humans in the Age of Automation</titol>
+    <editorial>Hachette Collections</editorial>
+    <edicio>2021</edicio>
+    <isbn>9781529304732</isbn>
+    <nombrepagines>256</nombrepagines>
+    <autor>Kevin Roose</autor>
+  </llibre>
+  <llibre>
+    <codillibre>0006</codillibre>
+    <titol>Informática básica</titol>
+    <editorial>Ra-Ma</editorial>
+    <edicio>2004</edicio>
+    <isbn>9788487805004</isbn>
+    <nombrepagines>450</nombrepagines>
+    <autor>Federico Javier Martín Martínez</autor>
+  </llibre>
+</biblioteca>

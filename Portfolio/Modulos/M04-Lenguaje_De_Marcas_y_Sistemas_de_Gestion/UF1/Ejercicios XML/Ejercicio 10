@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cd title="Go West">
+  <songs>
+    <song length="6:20" anio="1978">
+      <title>Hot Cop</title>
+      <composers>
+        <composer>
+          <nombre>Henry</nombre>
+         <apellidos>Beolo</apellidos>
+        </composer>  
+      </composers>
+      <producers>
+       <producer>
+        <nombre>Jacques</nombre>
+        <apellidos>Morali</apellidos>
+      </producer>
+      </producers>
+      <publisher>PolyGram</publisher>
+      <artists>
+       <artist>Village People</artist>
+      </artists>
+    </song>
+    <song length="5:39" anio="1978">
+      <title>In the Navy</title>
+      <composers>
+        <composer>
+          <nombre>Henry</nombre>
+         <apellidos>Beolo</apellidos>
+        </composer>  
+      </composers>
+      <producers>
+       <producer>
+        <nombre>Jaques</nombre>
+        <apellidos>Morali</apellidos>
+      </producer>
+      </producers>
+      <publisher>PolyGram</publisher>
+      <artists>
+       <artist>The Village People</artist>
+      </artists>
+    </song>    
+    <song length="5:32" anio="1978">
+      <title>Citizens of the World</title>
+      <composers>
+        <composer>
+          <nombre>Henry</nombre>
+         <apellidos>Beolo</apellidos>
+        </composer>  
+      </composers>
+      <producers>
+       <producer>
+        <nombre>Jaques</nombre>
+        <apellidos>Morali</apellidos>
+       </producer>
+     </producers>
+      <publisher>Polygram</publisher>
+      <artists>
+         <artist>The Village People</artist>
+      </artists>
+    </song>   
+    <song length="4:40" anio="1978">
+      <title>I wanna Shake Your Hand</title>
+      <composers>
+        <composer>
+          <nombre>Henry</nombre>
+         <apellidos>Beolo</apellidos>
+        </composer>  
+      </composers>
+      <producers>
+       <producer>
+        <nombre>Jaques</nombre>
+        <apellidos>Morali</apellidos>
+      </producer>
+     </producers>
+      <publisher>Polygram</publisher>
+      <artists>
+         <artist>The Village People</artist>
+      </artists>
+    </song>   
+    <song length="5:22" anio="1978">
+      <title>Get Away Holiday</title>
+      <composers>
+        <composer>
+          <nombre>Henry</nombre>
+         <apellidos>Beolo</apellidos>
+        </composer>  
+      </composers>
+      <producers>
+       <producer>
+        <nombre>Jaques</nombre>
+        <apellidos>Morali</apellidos>
+      </producer>
+     </producers>
+      <publisher>Polygram</publisher>
+      <artists>
+         <artist>The Village People</artist>
+      </artists>
+    </song>   
+    <song length="5:10" anio="1978">
+      <title>Manhattan Woman</title>
+      <composers>
+        <composer>
+          <nombre>Henry</nombre>
+         <apellidos>Beolo</apellidos>
+        </composer>  
+      </composers>
+      <producers>
+       <producer>
+        <nombre>Jaques</nombre>
+        <apellidos>Morali</apellidos>
+      </producer>
+     </producers>
+      <publisher>Polygram</publisher>
+      <artists>
+         <artist>The Village People</artist>
+      </artists>
+    </song>   
+
+  </songs>
+  <data dia="26" mes="03" any="1979"></data>
+</cd>

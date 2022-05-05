@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<citizen
+xlmns:cityxml="http://www.example.com/xml/cities.xml">
+  <cityxml:homecity>
+    <cityxml:name>London</cityxml:name>
+    <cityxml:lat>123.000</cityxml:lat>
+    <cityxml:long>0.00</cityxml:long>
+  </cityxml:homecity>
+</citizen>

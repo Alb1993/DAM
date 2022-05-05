@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fruiteria>
+  <fruita>
+    <codiproducte>0001</codiproducte>
+    <nomproducte>Maduixa</nomproducte>
+    <nomproductor></nomproductor>
+    <tipus>
+     <aliment>Si</aliment>
+     <fragilitat>3</fragilitat>
+     <frigorífic>No</frigorífic>
+    </tipus>
+    <secció>Fruites</secció>
+    <stock>0</stock>
+  </fruita>
+  <fruita>
+    <codiproducte>0002</codiproducte>
+    <nomproducte>Pera</nomproducte>
+    <nomproductor></nomproductor>
+    <tipus>
+     <aliment>Si</aliment>
+     <fragilitat>2</fragilitat>
+     <frigorífic>No</frigorífic>
+    </tipus>
+    <secció>Fruites</secció>
+    <stock>30</stock>
+  </fruita>
+  <fruita>
+    <codiproducte>0003</codiproducte>
+    <nomproducte>Suc</nomproducte>
+    <nomproductor></nomproductor>
+    <tipus>
+     <aliment>Si</aliment>
+     <fragilitat>1</fragilitat>
+     <frigorífic>Si</frigorífic>
+    </tipus>
+    <secció>Refrescos</secció>
+    <stock>20</stock>
+  </fruita>
+
+
+</fruiteria>

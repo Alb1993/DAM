@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<horari>
+  <dies>
+    <dilluns>
+      <hora1>
+       <hora>8:00 - 9:00</hora>
+       <mòdul></mòdul>
+      </hora1> 
+      <hora2>
+        <hora>9:00 - 10:00</hora>
+        <mòdul>M03</mòdul>
+      </hora2>
+      <hora3>
+        <hora>10:00 - 11:00</hora>
+       <mòdul>M03</mòdul>
+      </hora3> 
+      <hora4>
+        <hora>11:00 - 11:30</hora>
+       <mòdul>Descans</mòdul>
+     </hora4> 
+      <hora5> 
+       <hora>11:30 - 12:30</hora>
+       <mòdul>M02</mòdul>
+     </hora5>
+      <hora6>
+       <hora>12:30 - 13:30</hora>
+        <mòdul></mòdul>
+      </hora6>
+     <hora7>
+        <hora>13:30 - 14:30</hora>
+        <mòdul></mòdul>
+      </hora7>
+    </dilluns>
+    <dimarts>
+      <hora1>
+        <hora>8:00 - 9:00</hora>
+       <mòdul></mòdul>
+      </hora1> 
+      <hora2>
+        <hora>9:00 - 10:00</hora>
+        <mòdul>M02</mòdul>
+      </hora2>
+      <hora3>
+        <hora>10:00 - 11:00</hora>
+        <mòdul>M02</mòdul>
+      </hora3> 
+      <hora4>
+        <hora>11:00 - 11:30</hora>
+        <mòdul>Descans</mòdul>
+      </hora4> 
+      <hora5> 
+        <hora>11:30 - 12:30</hora>
+        <mòdul>M01</mòdul>
+      </hora5>
+      <hora6>
+       <hora>12:30 - 13:30</hora>
+       <mòdul>M04</mòdul>
+      </hora6>
+      <hora7>
+        <hora>13:30 - 14:30</hora>
+        <mòdul>M04</mòdul>
+      </hora7>
+  </dimarts>
+    <dimecres>
+    <hora1>
+      <hora>8:00 - 9:00</hora>
+      <mòdul></mòdul>
+    </hora1> 
+    <hora2>
+      <hora>9:00 - 10:00</hora>
+      <mòdul></mòdul>
+    </hora2>
+    <hora3>
+      <hora>10:00 - 11:00</hora>
+      <mòdul>M03</mòdul>
+    </hora3> 
+    <hora4>
+      <hora>11:00 - 11:30</hora>
+      <mòdul>Descans</mòdul>
+    </hora4> 
+    <hora5> 
+      <hora>11:30 - 12:30</hora>
+      <mòdul>M03</mòdul>
+    </hora5>
+    <hora6>
+      <hora>12:30 - 13:30</hora>
+      <mòdul>M01</mòdul>
+    </hora6>
+    <hora7>
+      <hora>13:30 - 14:30</hora>
+      <mòdul></mòdul>
+    </hora7>
+  </dimecres>
+    <dijous>
+     <hora1>
+        <hora>8:00 - 9:00</hora>
+        <mòdul></mòdul>
+      </hora1> 
+     <hora2>
+        <hora>9:00 - 10:00</hora>
+       <mòdul>TUT</mòdul>
+      </hora2>
+      <hora3>
+       <hora>10:00 - 11:00</hora>
+       <mòdul>M02</mòdul>
+      </hora3> 
+      <hora4>
+       <hora>11:00 - 11:30</hora>
+        <mòdul>Descans</mòdul>
+      </hora4> 
+     <hora5> 
+        <hora>11:30 - 12:30</hora>
+        <mòdul>M02</mòdul>
+     </hora5>
+      <hora6>
+       <hora>12:30 - 13:30</hora>
+        <mòdul>M01</mòdul>
+      </hora6>
+      <hora7>
+        <hora>13:30 - 14:30</hora>
+       <mòdul>M01</mòdul>
+     </hora7>
+  </dijous>
+    <divendres>
+      <hora1>
+        <hora>8:00 - 9:00</hora>
+        <mòdul>M03</mòdul>
+      </hora1> 
+      <hora2>
+        <hora>9:00 - 10:00</hora>
+        <mòdul>M03</mòdul>
+      </hora2>
+      <hora3>
+       <hora>10:00 - 11:00</hora>
+       <mòdul>M04</mòdul>
+      </hora3> 
+      <hora4>
+        <hora>11:00 - 11:30</hora>
+        <mòdul>Descans</mòdul>
+      </hora4> 
+       <hora5> 
+        <hora>11:30 - 12:30</hora>
+        <mòdul>M04</mòdul>
+     </hora5>
+       <hora6>
+        <hora>12:30 - 13:30</hora>
+        <mòdul>M01</mòdul>
+     </hora6>
+      <hora7>
+        <hora>13:30 - 14:30</hora>
+       <mòdul></mòdul>
+       </hora7>
+    
+   </divendres>
+  </dies>
+  <formacio>
+    <asignatura1>
+      <moduls>
+        <codiModul>M01UF123 / M15UF1</codiModul>
+        <nomModul>Sistemes informàtics</nomModul>
+      </moduls>
+      <professorat>Roberto Ferrero</professorat>
+      <aula>0.11 (Aula Nova)</aula>
+    </asignatura1>
+    <asignatura2>
+      <moduls>
+        <codiModul>M02UF1234</codiModul>
+        <nomModul>Base de dades</nomModul>
+      </moduls>
+      <professorat>Alícia Pla</professorat>
+      <aula>0.11 (Aula Nova)</aula>
+    </asignatura2>
+    <asignatura3>
+      <moduls>
+        <codiModul>M03UF1234 / M05UF1</codiModul>
+        <nomModul>Programació</nomModul>
+      </moduls>
+      <professorat>Víctor Lino / Juan Martín</professorat>
+      <aula>0.11 (Aula Nova)</aula>
+    </asignatura3>
+    <asignatura4>
+      <moduls>
+        <codiModul>M04UF123 / M15UF2</codiModul>
+        <nomModul>Llenguatges de marques</nomModul>
+      </moduls>
+      <professorat>Ricardo López</professorat>
+      <aula>0.11 (Aula Nova)</aula>
+    </asignatura4>
+  </formacio>
+</horari>
