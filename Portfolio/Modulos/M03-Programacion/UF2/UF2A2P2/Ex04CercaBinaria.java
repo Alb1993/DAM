@@ -3,7 +3,7 @@ package UF2A2P2;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Ex04 {
+public class Ex04CercaBinaria {
     /*
     Fes un programa que demani un valor N i, a continuació, N països ordenats alfabèticament. Seguidament, se'ns demanarà un país.
 
