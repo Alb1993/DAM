@@ -5,7 +5,35 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ExamenUF2Ex01 {
+    
+    /*En un tauler de joc de taula de 8 x 8 caselles l’hem d’incialitzar situant aleatòriament
+    20 fitxes blanques.
+    
+    A continuació volem col·locar 4 fitxes negres al tauler amb la condició que no
+    estiguin en contacte amb les vores ni ocupin el lloc d’una altra fitxa ja existent.
+    
+    El joc consisteix en introduir una posició (fila i columna) cada vegada amb cadascuna
+    de les 4 fitxes negres que es volen col·locar.
 
+    Les regles perquè cadascuna de les 4 fitxes negres es puguin col·locar són:
+        ● La casella ha d’estar buida (no pot haver una de les fitxes blanca ni cap altre de
+        les fitxes negres que hem col·locat nosaltres)
+        ● No es pot col·locar una fitxa negra a la vora del tauler (les fitxes blanques
+        inicials sí poden estar a la vora).
+    El programa ens ha de dir si es poden col.locar o no cadascuna de les 4 fitxes negres.
+    Les posicions que introdueix l’usuari per col·locar les fitxes van de la 1 a la 8 (tant per
+    fila com per columna).
+    
+    Disposem de 10 intents en total.
+    
+    L’aplicació ha de crear un array bidimensional de 8x8 on a cada posició pot haver:
+        ● 0: Indica que no ni ha fitxa.
+        ● 1: Indica que hi ha una fitxa de les 20 blanques originals (B) que s’han col·locat
+        aleatòriament.
+        ● 2: S’ha fet un intent vàlid de col·locar una de les 4 fitxes negres sobre aquesta
+        casella
+    */
+    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[][] tabla = creaTabla();
