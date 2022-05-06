@@ -3,6 +3,23 @@ package UF2A2P2;
 import java.util.Scanner;
 
 public class EX01Resolucion {
+    /* Fes un programa que demani un valor N i, a continuació, N països.
+El programa tornarà els països ordenats pel mètode de la bombolla. 
+Per fer-ho, crearem el mètode:
+static XXXX ordenaBombolla(YYYY paisos)
+
+On XXXX  seran els tipus de retorn i YYYY el del paràmetre del mètode que omplireu vosaltres.
+
+INPUTS
+
+5
+França
+Portugal
+Suècia
+Estats Units
+Itàlia
+*/
+    
     
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
