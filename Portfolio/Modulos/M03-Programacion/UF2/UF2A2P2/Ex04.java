@@ -4,6 +4,26 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Ex04 {
+    /*
+    Fes un programa que demani un valor N i, a continuació, N països ordenats alfabèticament. Seguidament, se'ns demanarà un país.
+
+
+    El programa ha de tornar la posició del país si l'ha trobat a la llista anterior. En cas contrari, mostrarà "No trobat".
+    Per fer-ho, crearem el mètode:
+    static int cercaBinaria(XXXX array, YYYY valor)
+
+    On XXXX  i YYYY seran els tipus dels paràmetres del mètode de cerca.
+
+    INPUTS
+
+    5
+    Estats Units
+    França
+    Itàlia
+    Portugal
+    Suècia
+    Portugal
+    */
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
