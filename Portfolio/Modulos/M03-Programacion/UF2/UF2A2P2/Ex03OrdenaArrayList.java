@@ -5,6 +5,20 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class Ex03OrdenaArrayList {
+
+    /*
+    Fes un programa que faci la mateixa ordenació de països que al primer exercici però fent servir el mètode sort() de la classe Collections.
+
+    INPUTS
+
+    5
+    França
+    Portugal
+    Suècia
+    Estats Units
+    Itàlia
+    */
+    
     
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
