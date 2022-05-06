@@ -2,8 +2,11 @@ package Uf2modular;
 
 import java.util.Scanner;
 
-public class ej2_modular {
-
+public class ex2_Parametres {   
+    /*
+    Crea una funció que retorni la suma de dos números. Aquests números els passarem per paràmetres.
+    */
+    
     public static Scanner in = new Scanner(System.in);
     
     public static void main(String[] args) {    
