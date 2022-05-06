@@ -4,6 +4,22 @@ import java.util.Scanner;
 
 public class EX02Bueno {
     
+    /*
+    Fes un programa que demani un valor N i, a continuació, N temperatures.
+    El programa tornarà les temperatures  ordenades pel mètode de la selecció (la segona versió vista a classe). 
+    Per fer-ho, crearem el mètode:
+        static XXXX ordenaSelecció2(YYYY vector)
+
+    On XXXX  seran els tipus de retorn i YYYY el del paràmetre del mètode que omplireu vosaltres. 
+    A més, mostrarem el total de passades que hem hagut de fer.
+
+    INPUTS
+
+    3   
+    2.1
+    7.9
+    3.4     */
+    
     public static void main(String a[]){
         Scanner in = new Scanner(System.in);
         int casos = introCasos(in); //intro numero de casos
