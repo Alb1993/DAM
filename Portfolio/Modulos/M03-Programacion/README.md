@@ -1,4 +1,4 @@
-### M03 - Programacion
+### M03 - Programación
 ![](https://qcentrio.com/img/Java.PNG)
 
 En este modulo formativo hemos aprendido los fundamentos y conceptos basicos de la programacion en **Java** mediante el uso del IDE **Netbeans**.
