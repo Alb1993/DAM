@@ -2,7 +2,7 @@ package UF2A2P2;
 
 import java.util.Scanner;
 
-public class EX02Bueno {
+public class EX02OrdenaSeleccio {
     
     /*
     Fes un programa que demani un valor N i, a continuació, N temperatures.
