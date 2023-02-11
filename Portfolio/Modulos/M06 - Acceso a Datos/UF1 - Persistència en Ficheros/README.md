@@ -1,0 +1,1 @@
+Impartida por: Manel Oros.
