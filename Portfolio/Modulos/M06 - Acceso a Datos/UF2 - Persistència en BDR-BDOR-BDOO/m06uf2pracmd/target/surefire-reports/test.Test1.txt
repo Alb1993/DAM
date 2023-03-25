@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: test.Test1
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.717 s <<< FAILURE! - in test.Test1
+test.Test1  Time elapsed: 1.714 s  <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at test.Test1.inici(Test1.java:51)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Error calling Driver#connect [Access denied for user 'root'@'localhost' (using password: YES)] [null]
+	at test.Test1.inici(Test1.java:51)
+Caused by: org.hibernate.exception.GenericJDBCException: Error calling Driver#connect [Access denied for user 'root'@'localhost' (using password: YES)] [null]
+	at test.Test1.inici(Test1.java:51)
+Caused by: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at test.Test1.inici(Test1.java:51)
+
